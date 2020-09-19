@@ -1,16 +1,18 @@
 @import url("https://use.typekit.net/tax8raf.css");
 
+
 h1 {
   font-family: noto-sans, sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: 80px;
 }
 
 #landing {
   height: 100vh;
 }
 
-.press {
+.button {
   background-color: white;
   border: solid;
   color: black;
@@ -19,13 +21,60 @@ h1 {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 20px;
   font-family: noto-sans, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
-.press:hover {
+.button:hover {
   background-color: black;
+  border-color: black;
   color: white;
+}
+
+
+/* Landing Page */
+
+.mainTitle {
+  font-size: 140px;
+  color: #f95a2b;
+}
+
+.mainButton {
+  padding: 25px 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 80px;
+  font-size: 50px;
+}
+
+.about {
+  position: absolute;
+  left: 0;
+  height: 100px;
+  margin: 20px 20px 0 0;
+}
+
+/* Perry */
+#titleA {
+  display: initial;
+}
+
+#titleB {
+  display: none;
+}
+
+#ptp {
+  display: initial;
+  height: 60%;
+  width: 60%;
+}
+
+#ptp2 {
+  display: none;
+  height: 60%;
+  width: 60%;
 }
