@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/tax8raf.css");
+
+h1 {
+  font-family: noto-sans, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#landing {
+  height: 100vh;
+}
+
+.press {
+  background-color: white;
+  border: solid;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-family: noto-sans, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.press:hover {
+  background-color: black;
+  color: white;
+}
