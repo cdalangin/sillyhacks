@@ -8,6 +8,10 @@ h1 {
   font-size: 80px;
 }
 
+.aboutPage {
+  background-color: #00c6ae;
+}
+
 #landing {
   height: 100vh;
 }
@@ -53,7 +57,7 @@ h1 {
 
 .about {
   position: absolute;
-  left: 0;
+  right: 0;
   height: 100px;
   margin: 20px 20px 0 0;
 }
@@ -77,4 +81,15 @@ h1 {
   display: none;
   height: 60%;
   width: 60%;
+}
+
+/* About */
+.thumbnails {
+  border: solid;
+  border-color: #00c6ae;
+  border-radius: 20px;
+}
+
+.back {
+  height: 30px;
 }
