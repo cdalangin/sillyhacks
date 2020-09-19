@@ -93,3 +93,22 @@ h1 {
 .back {
   height: 30px;
 }
+
+/* Bee Page */
+.bee {
+  height: 200px;
+}
+
+/* Potion Page */
+
+.orangeTitle {
+  color: #f95a2b
+}
+
+.bottle {
+  height: 300px;
+}
+
+.tealTitle {
+  color: #00c6ae;
+}
