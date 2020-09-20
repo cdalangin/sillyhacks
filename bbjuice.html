@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Get smart</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <a href="/index.html"><img src="https://www.flaticon.com/svg/static/icons/svg/271/271220.svg" alt="back"
+            class="back mt-4 ml-4"></a>
+    <div class="container-fluid d-flex align-items-center p-5">
+        <div class="container align-items-center">
+            <div class="row text-center align-items-center p-2">
+                <div class="col-sm-12">
+                    <h1 class="orangeTitle">COME GET Y'ALL JUICE</h1>
+                    <h3 id="facts">Take a sip by clicking the box and watch your IQ get higher!</h3>
+                </div>
+            </div>
+
+            <div class="row text-center align-items-center">
+                <div class="col-sm-6">
+                    <img src="assets/bbjuice.png" onClick="addIq()" class="img-fluid bottle" alt="bottle">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="tealTitle" id="iq">IQ: 0</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
