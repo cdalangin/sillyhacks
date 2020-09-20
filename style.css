@@ -1,6 +1,5 @@
 @import url("https://use.typekit.net/tax8raf.css");
 
-
 h1 {
   font-family: noto-sans, sans-serif;
   font-weight: 900;
@@ -83,7 +82,7 @@ h1 {
   width: 60%;
 }
 
-/* About */
+/* All the Page */
 .thumbnails {
   border: solid;
   border-color: #00c6ae;
@@ -99,10 +98,14 @@ h1 {
   height: 200px;
 }
 
+.tinyText {
+  font-size: 10px;
+}
+
 /* Potion Page */
 
 .orangeTitle {
-  color: #f95a2b
+  color: #f95a2b;
 }
 
 .bottle {
@@ -111,4 +114,14 @@ h1 {
 
 .tealTitle {
   color: #00c6ae;
+}
+
+/* About Page */
+
+.bio {
+  font-size: 20px;
+}
+
+linked {
+  text-decoration: none;
 }
