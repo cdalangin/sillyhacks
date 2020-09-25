@@ -1,0 +1,23 @@
+{
+  "name": "sillyhacks",
+  "version": "1.0.0",
+  "description": "a useless website",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daphnejoaquin/sillyhacks.git"
+  },
+  "author": "daphne and cirill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daphnejoaquin/sillyhacks/issues"
+  },
+  "engines": {
+    "node": "12.18.2"
+  },
+  "homepage": "https://github.com/daphnejoaquin/sillyhacks#readme"
+}
