@@ -16,7 +16,8 @@
 
 		#myVideo {
 			position: relative;
-			width: 720 right: 0;
+			width: 720;
+			right: 0;
 			bottom: 0;
 			min-width: 100%;
 			min-height: 100%;
@@ -46,6 +47,8 @@
 			color: black;
 		}
 	</style>
+
+	<link rel="icon" href="assets/isp.png">
 </head>
 
 <body>
@@ -55,25 +58,26 @@
 	</video>
 
 	<div class="content">
-		<p>Original Video by <a href="https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw" target="_blank" style="color: orange">Official
+		<p>Original Video by <a href="https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw" target="_blank"
+				style="color: orange">Official
 				Rick Astley</a></p>
 		<button id="myBtn" onclick="myFunction()">Pause</button>
-    </div>
+	</div>
 
-    <script>
-        var video = document.getElementById("myVideo");
-        var btn = document.getElementById("myBtn");
+	<script>
+		var video = document.getElementById("myVideo");
+		var btn = document.getElementById("myBtn");
 
-        function myFunction() {
-            if (video.play) {
-                video.play();
-                btn.innerHTML = "Pause";
-            } else {
-                video.pause();
-                btn.innerHTML = "Play";
-            }
-        }
-    </script>
+		function myFunction() {
+			if (video.play) {
+				video.play();
+				btn.innerHTML = "Pause";
+			} else {
+				video.pause();
+				btn.innerHTML = "Play";
+			}
+		}
+	</script>
 
 </body>
 
