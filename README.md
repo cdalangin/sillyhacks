@@ -4,4 +4,6 @@ Welcome to the Insanity Starter Pack. We know times have been tough lately. Too 
 
 We encourange you to waste your time on here because how else can you discover all our wacky pages?
 
-Made with  for the [SillyHacks Hackathon](https://sillyhacks.online/) by [Daphne Joaquin](https://github.com/daphnejoaquin) and [Cirill Dalangin](https://github.com/cdalangin)
+Have any suggestions? DM me on Twitter [@italicflorenz](https://twitter.com/italicflorenz)!
+
+Made with 💜 for the [SillyHacks Hackathon](https://sillyhacks.online/) by [Daphne Joaquin](https://github.com/daphnejoaquin) and [Cirill Dalangin](https://github.com/cdalangin)
